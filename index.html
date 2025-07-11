@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie-Hub</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Bootstrap 5 CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Bootstrap Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+     <!-- Custom CSS -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="logo.jpg" alt="Foodie Hub Logo" height="40" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#restaurants">Restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Welcome to Foodie Hub</h1>
+            <p class="lead">Order your favorite meals instantly!</p>
+        </div>
+    </section>
+
+    <!-- Restaurants List -->
+    <section id="restaurants" class="py-5">
+        <div class="container">
+            <h2 class="row" id="our-restaurants">Our Restaurants</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <!-- Restaurant 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="italiyan.jpg" class="card-img-top" alt="Italian Restaurant">
+                        <div class="card-body">
+                            <h5 class="card-title">Italian Bistro</h5>
+                            <p class="card-text">Delicious Italian cuisine with a modern twist.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Restaurant 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="mexican-cantina.jpg" class="card-img-top" alt="Mexican Cantina">
+                        <div class="card-body">
+                            <h5 class="card-title">Mexican Cantina</h5>
+                            <p class="card-text">Authentic Mexican flavors with vibrant dishes.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Restaurant 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="sushi.jpg" class="card-img-top" alt="Sushi Haven">
+                        <div class="card-body">
+                            <h5 class="card-title">Sushi Haven</h5>
+                            <p class="card-text">Fresh and authentic Japanese sushi.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Restaurant 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="BBQ.jpg" class="card-img-top" alt="BBQ Grill">
+                        <div class="card-body">
+                            <h5 class="card-title">BBQ Grill</h5>
+
+                            <p class="card-text">Smoky and savory BBQ dishes.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Restaurant 5 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="vegan.jpg" class="card-img-top" alt="Vegan Cafe">
+                        <div class="card-body">
+                            <h5 class="card-title">Vegan Cafe</h5>
+                            <p class="card-text">Healthy and delicious plant-based meals.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Restaurant 6 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="bourger.jpg" class="card-img-top" alt="Burger Joint">
+                        <div class="card-body">
+                            <h5 class="card-title">Burger Joint</h5>
+                            <p class="card-text">Juicy burgers with all the fixings.</p>
+                            <a href="view.html" class="btn btn-primary">View Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant Menu Section (Example for Restaurant 1) -->
+    <section id="menu1" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Menu - Italian Bistro</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- Menu Item 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text">Classic pizza with tomato, mozzarella, and basil.</p>
+                            <p class="card-text"><strong>Price:</strong> $10.99</p>
+                            <span class="badge bg-success">Available</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Menu Item 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta Carbonara</h5>
+                            <p class="card-text">Creamy pasta with pancetta and parmesan.</p>
+                            <p class="card-text"><strong>Price:</strong> $12.99</p>
+                            <span class="badge bg-danger">Unavailable</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Place Your Order</h2>
+            <form action="#" class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Customer Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" required>
+                </div>
+                <div class="col-12">
+                    <label for="restaurant" class="form-label">Select Restaurant</label>
+                    <select class="form-select" id="restaurant" required>
+                        <option value="">Choose a restaurant</option>
+
+                        <option value="1">Italian Bistro</option>
+                        <option value="2">Mexican Cantina</option>
+                        <option value="3">Sushi Haven</option>
+                        <option value="4">BBQ Grill</option>
+                        <option value="5">Vegan Cafe</option>
+                        <option value="6">Burger Joint</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label class="form-label">Select Menu Items</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="item1">
+                        <label class="form-check-label" for="item1">Margherita Pizza ($10.99) <input type="number" min="1" value="1" style="width: 60px;"></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="item2">
+                        <label class="form-check-label" for="item2">Pasta Carbonara ($12.99) <input type="number" min="1" value="1" style="width: 60px;"></label>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="py-5" style="background: linear-gradient(135deg, #0d0d0d, #4f4d4d); padding: 60px 0; position: relative; overflow: hidden;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="about-image">
+                    <img src="about food.jpg" class="img-fluid rounded shadow-lg" alt="About Foodie Hub" style="border: 5px solid #fff; transform: scale(1); transition: transform 0.3s ease;">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-text text-white p-4" style="background: rgba(253, 252, 252, 0.6); border-radius: 15px;">
+                    <h2 class="display-4 fw-bold mb-3">About Foodie Hub</h2>
+                    <p class="lead">Foodie Hub: A Paradise for Food Lovers</p>
+                    <p>Step into Foodie Hub, a captivating haven where diverse flavors and cultures collide. With its elegant design and warm ambiance, it invites you to embark on a sensory journey of tantalizing aromas and exquisite tastes.</p>
+                    <p>Our menu showcases a fusion of international and local masterpieces, crafted with the finest ingredients by skilled chefs who infuse every dish with artistic flair and innovation.</p>
+                    <p>Beyond the culinary delights, enjoy our unique beverages and gather with loved ones for unforgettable moments. Let Foodie Hub envelop you in a world where food and art harmonize beautifully.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- افکت پس‌زمینه سینمایی -->
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('https://images.unsplash.com/photo-1490818387583-1baba5e638af?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover; opacity: 0.2; z-index: -1;"></div>
+</div>
+</section>
+
+    <!-- Contact Section / Footer -->
+    <footer id="contact" class="py-4 bg-dark text-white text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <p>Email:mobinaamini86@gmail.com</p>
+                    <p>Phone: (93)728-699-816</p>
+                    <p>Address:Herat Afghanistan</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h3>Follow Us</h3>
+                    <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/mobina86225502?t=0c9vn3FLC984PKmiPPdUhQ&s=09" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/tasnim_m86?igsh=YWtvb2xuaDdmaTds" class="text-white"><i class="bi bi-instagram"></i></a>
+                    <a href="#home" class="text-white d-block mt-2">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>

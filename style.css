@@ -1,0 +1,123 @@
+/* General Styles */
+html {
+    scroll-behavior: smooth; /* Smooth scroll for anchor links (Bonus) */
+}
+
+
+/* Navbar Styles */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 30px;
+    }
+}
+
+/* Hero Section Styles */
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+    .hero-section {
+        height: 50vh;
+    }
+}
+
+/* Restaurants List Styles */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px;
+    }
+}
+
+/* Menu Section Styles */
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 1em;
+}
+
+/* Order Form Styles */
+.form-control, .form-select {
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* About Section Styles */
+@media (max-width: 768px) {
+    .row.align-items-center {
+        flex-direction: column;
+    }
+    .col-md-6 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Footer Styles */
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    footer .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 1rem;
+    }
+}
